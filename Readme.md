@@ -21,6 +21,8 @@ Comandos do Git
 		--soft: 
 		--mixed: Arquivo modificado, mas não adicionado no stage
 		--hard(Cuidado): Matar o commit e qualquer modificação. Limpa até do log.
+	- git clone: clonar todo o repositório remoto para sua maquina local
+	
 
 Inserir os arquivos do repositório local / remoto
 
