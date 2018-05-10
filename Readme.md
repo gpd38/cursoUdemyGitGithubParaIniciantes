@@ -90,3 +90,8 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 	git config --global alias.s status
 	```
 
+### Tag (Release)
+
+	Para criar uma tag digite: git tag -a <versão> -m "comentario"
+
+	Para submeter ao github digite: git push origin master --tags
