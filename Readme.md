@@ -73,6 +73,8 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 
 	Existe arquivos que precisam estar no repositório mas que gostariamos que outras pessoas não baixassem
 
+	[GitIgnore default para projetos](https://github.com/github/gitignore)
+
 ### Seção especial: Git Stash
 
 	Como funciona?  O usuário digita o comando git stash para salvar temporareamente o que foi alterado e git stash apply para retornar as alterações salvas temporareamente
