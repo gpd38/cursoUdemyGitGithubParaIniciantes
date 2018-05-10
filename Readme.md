@@ -1,4 +1,6 @@
-Estados do Git
+# Git e Github
+
+### Estados do Git
 
 	1- Untracket: É quando o arquivo foi inserido no repositório, mas o git não reconhece o arquivo ainda.
 	2- Unmodified: Arquivo adicionado no git, mas não foi modificado
@@ -7,7 +9,7 @@ Estados do Git
 
 O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 
-Comandos do Git
+### Comandos do Git
 
 	- git status: Informar como está o git/repositório neste momento.
 	- git add: Insere o arquivo na área que será enviada para o git
@@ -22,9 +24,8 @@ Comandos do Git
 		--mixed: Arquivo modificado, mas não adicionado no stage
 		--hard(Cuidado): Matar o commit e qualquer modificação. Limpa até do log.
 	- git clone: clonar todo o repositório remoto para sua maquina local
-	- fork: copia o repositório de outra pessoa para seu github. Após as modificações o github envia para o dono do projeto.
 
-Inserir os arquivos do repositório local / remoto
+### Inserir os arquivos do repositório local / remoto
 
 	echo "# gitcourse" >> README.md
 	git init
@@ -32,3 +33,23 @@ Inserir os arquivos do repositório local / remoto
 	git commit -m "first commit"
 	git remote add origin git@github.com:gpd38/gitcourse.git
 	git push -u origin master
+
+### Criando copia de projeto de outras pessoas
+
+	Na tela inicil do github existe um botão chamado "FORK". Este comando copia o repositório de outra pessoa para seu github. Após as modificações o github envia para o dono do projeto.
+
+### Branches
+
+	- Pode modificar sem alterar o local principal.
+	- Múltiplas pessoas tabalhando.
+	- Evita conflitos.
+
+	Para criar branches utilize o comando git checkout -b <nome_do_branch>.
+
+	Listar os branches utilize o comando git branch.
+
+	Para apagar uma branch utilize o comando git branch -D <nome_do_branch>.
+
+	Para mudar de uma branch para outra utilize o comando git checkout <nome_do_branch>.
+
+	###### Unindo Branches (Merge)
