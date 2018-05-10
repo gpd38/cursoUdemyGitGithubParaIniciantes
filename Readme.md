@@ -52,4 +52,11 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 
 	Para mudar de uma branch para outra utilize o comando git checkout <nome_do_branch>.
 
-	###### Unindo Branches (Merge)
+###### Unindo Branches (Merge)
+
+	O merge não é uma operação destrutiva, ou seja, ele não apaga o commit, ele cria um novo.
+
+	C1 <- C2 <- C3 <- C4 <-------- C7
+                   <- C5 <- C6 <-- C7
+
+    O commit C7 une os commits C4 + C5 + C6
