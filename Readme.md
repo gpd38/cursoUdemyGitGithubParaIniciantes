@@ -12,4 +12,4 @@ Comandos do Git
 	- git commit: 
 	- git log: Informa o número do commit, autor e data
 		- git log --graph
-
+	- git diff: O git mostra as modificações 
