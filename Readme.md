@@ -22,7 +22,7 @@ Comandos do Git
 		--mixed: Arquivo modificado, mas não adicionado no stage
 		--hard(Cuidado): Matar o commit e qualquer modificação. Limpa até do log.
 	- git clone: clonar todo o repositório remoto para sua maquina local
-	
+	- fork: copia o repositório de outra pessoa para seu github. Após as modificações o github envia para o dono do projeto.
 
 Inserir os arquivos do repositório local / remoto
 
