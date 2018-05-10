@@ -69,8 +69,24 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 	C1 <- C2 <- C3 <- C4		C1 <- C2 <- C3 <- C4 <- C5
 	               <- C5
 
-### Git Ignore
+### Arquivo Git Ignore
 
 	Existe arquivos que precisam estar no repositório mas que gostariamos que outras pessoas não baixassem
 
-	
+### Seção especial: Git Stash
+
+	Como funciona?  O usuário digita o comando git stash para salvar temporareamente o que foi alterado e git stash apply para retornar as alterações salvas temporareamente
+
+	Outros comando interessantes são o git stash list para ver todos os stash armazenados temporareamente e o git stash clear para limpar tudo.
+
+### Alias
+
+	Alias são atalhos dos comandos de commit.
+
+	Para configurar basta digitar git config --global alias.<nome> <comando_deve_fazer>
+
+	Ex.:
+	```
+	git config --global alias.s status
+	```
+
