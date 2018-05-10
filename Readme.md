@@ -54,7 +54,7 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 
 ###### Unindo Branches (Merge)
 
-	O merge não é uma operação destrutiva, ou seja, ele não apaga o commit, ele cria um novo.
+	O merge não é uma operação destrutiva, ou seja, ele não apaga o commit, ele cria um novo. É mais utilizado quando devemos perceber a unição de novas branches.
 
 	C1 <- C2 <- C3 <- C4 <-------- C7
                    <- C5 <- C6 <-- C7
@@ -63,8 +63,14 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 
 ###### Unindo Branches (Rebase)
 
-	O rebase evita commits extras, pois possui um histórico linear, mas devido a essa linearidade perdemos o histórico de alterações
+	O rebase evita commits extras, pois possui um histórico linear, mas devido a essa linearidade perdemos a organização do histórico de alterações
 
 	ANTES						DEPOIS
 	C1 <- C2 <- C3 <- C4		C1 <- C2 <- C3 <- C4 <- C5
 	               <- C5
+
+### Git Ignore
+
+	Existe arquivos que precisam estar no repositório mas que gostariamos que outras pessoas não baixassem
+
+	

@@ -1,0 +1,5 @@
+# Ignorar arquivos especificos
+*.json
+
+# Ignorar pastas
+logs
