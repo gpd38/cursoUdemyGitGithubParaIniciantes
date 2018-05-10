@@ -13,3 +13,9 @@ Comandos do Git
 	- git log: Informa o número do commit, autor e data
 		- git log --graph
 	- git diff: O git mostra as modificações 
+	- git checkout: Resetar a ultima modificação efetuada em um arquivo do git
+	- git HEAD <commit>: A alteração que tinha sido desfeita e commitada é refeita, ou seja, o arquivo volta para a versão da suposta edição errada.
+	- git reset:
+		--soft: 
+		--mixed: Arquivo modificado, mas não adicionado no stage
+		--hard(Cuidado): Matar o commit e qualquer modificação. Limpa até do log.
