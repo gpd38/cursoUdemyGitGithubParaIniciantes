@@ -60,3 +60,11 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
                    <- C5 <- C6 <-- C7
 
     O commit C7 une os commits C4 + C5 + C6
+
+###### Unindo Branches (Rebase)
+
+	O rebase evita commits extras, pois possui um histórico linear, mas devido a essa linearidade perdemos o histórico de alterações
+
+	ANTES						DEPOIS
+	C1 <- C2 <- C3 <- C4		C1 <- C2 <- C3 <- C4 <- C5
+	               <- C5
