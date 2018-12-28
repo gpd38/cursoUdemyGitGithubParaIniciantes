@@ -107,3 +107,17 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 ### Reverter um commit
 
 	O git revert revert suas mudanças, mas não exclui o commit que estava com problema para você não perder todas as alterações que foram feitas e para posteriormente o código ser inspecionado.
+
+### Deletar branch
+
+	Para deletar uma branch local basta executar o comando:
+	
+	```
+	git branch -D <nome_da_branch>
+	```
+	
+	Para deletar uma branch remota basta executar o comando:
+	
+	```
+	git push origin <nome_da_branch> --delete
+	```
