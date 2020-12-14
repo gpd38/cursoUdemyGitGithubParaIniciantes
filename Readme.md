@@ -123,4 +123,9 @@ O ciclo do GIT começa no 1 mas fica alterando entre 2, 3 e 4.
 	```
 
 ### Referências
+
 - [Curso Git e Github na Udemy](https://www.udemy.com/course/git-e-github-para-iniciantes/learn/lecture/5120486#overview)
+
+### Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
