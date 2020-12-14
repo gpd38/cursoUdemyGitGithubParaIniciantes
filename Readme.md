@@ -1,4 +1,4 @@
-# Git e Github
+# Git e Github para iniciantes
 
 ### Estados do Git
 
